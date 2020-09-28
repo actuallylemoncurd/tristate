@@ -7,7 +7,7 @@ https://raw.githubusercontent.com/icmma/tristate/master/continue.sh
 
 After you have modified the continue.sh, Please reboot your EON than you will see just black screen which is not an issue since you haven't installed OP yet for tri-state buttons. Following is script i have built for your intial setup for 3 branches example:
 
-> cd /data && rm -rf openpilot* && rm -rf openpilot.1* && rm -rf openpilot.2* && rm -rf openpilot.3* && git clone https://github.com/icmma/openpilot openpilot.1 && cd /data/openpilot.1 && git checkout icmma_feed_OG && cd /data && git clone https://github.com/kegman/openpilot openpilot.2 && cd /data/openpilot.2 && git checkout kegman-plusGernbySteering && cd /data  && git clone https://github.com/priuscom/openpilot openpilot.3 && cd /data/openpilot.3 && git checkout FLag && reboot
+> cd /data && rm -rf openpilot* && rm -rf openpilot.1* && rm -rf openpilot.2* && rm -rf openpilot.3* && git clone https://github.com/actuallylemoncurd/openpilot openpilot.1 && cd /data/openpilot.1 && git checkout openpilot-vw-community-private-pq-braking && cd /data && git clone https://github.com/actuallylemoncurd/openpilot openpilot.2 && cd /data/openpilot.2 && git checkout 0.7.4-i18n && cd /data && git https://github.com/jyoung8607/openpilot openpilot.3 && cd /data/openpilot.3 && git checkout vw-community-private-pq && reboot
 
 Please modify each fork username and branch name in general:
 
